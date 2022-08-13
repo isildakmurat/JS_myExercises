@@ -8,6 +8,17 @@ console.log(a-b)
 console.log(a*b)
 console.log(a/b)
 console.log(a%b) //bölümünden kalan
+console.log(a**b) //a üssü b
+
+
+console.log(a+=b)
+console.log(a-=b)
+console.log(a*=b)
+console.log(a/=b)
+console.log(a%=b) 
+console.log(a**=b)
+
+
 console.log(Math.pow(a,2)) //kuvvetini hesaplar
 
 console.log(Math.ceil(a)) //yukarı yuvarla
