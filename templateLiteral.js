@@ -10,3 +10,11 @@ console.log(a)
 
 const b = `İsim: ${name}\nDepartment: ${department}\nMaaş: ${salary}`
 console.log(b)
+
+const html = "<ul>" +
+            "<li>" + name + "</li>" +
+            "<li>" + department + "</li>" +
+            "<li>" + salary + "</li>" +
+            "</ul>"
+document.body.innerHTML = html;
+            
